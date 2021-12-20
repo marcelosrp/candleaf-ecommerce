@@ -4,12 +4,13 @@
     "paths": {
       "@common/*": ["common/*"],
       "@components/*": ["components/*"],
+      "@ui/*": ["ui/*"],
       "@services/*": ["services/*"],
       "@graphql/*": ["graphql/*"],
       "@layouts/*": ["layouts/*"],
       "@templates/*": ["templates/*"],
       "@styles/*": ["styles/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
     }
   }
 }

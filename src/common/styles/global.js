@@ -3,14 +3,24 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyles = createGlobalStyle`
 
   :root {
-    --container: 100rem;
+    --azul_escuro: #0B254B;
+    --branco: #fff;
+    --cinza: #5E6E89;
+    --preto: #272727;
+    --preto2: #1D293F;
+    --verde: #56B280;
+
+    --container: 111rem;
+
     --small: 1.6rem;
     --medium: 3.2rem;
     --large: 4.8rem;
+
     --light: 300;
     --normal: 400;
     --semi: 600;
     --bold: 700;
+    
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Poppins', sans-serif;
   }
