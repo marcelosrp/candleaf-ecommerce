@@ -3,15 +3,16 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyles = createGlobalStyle`
 
   :root {
-    --highlight: #e20e8d;
-    --background: #030518;
-    --white: #eee;
-
     --container: 100rem;
-
-    --small: 1.5rem;
-    --medium: 3rem;
-    --large: 5rem;
+    --small: 1.6rem;
+    --medium: 3.2rem;
+    --large: 4.8rem;
+    --light: 300;
+    --normal: 400;
+    --semi: 600;
+    --bold: 700;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Poppins', sans-serif;
   }
 
   * {
@@ -29,9 +30,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: var(--background);
-    color: var(--white);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--primary-font);
+    font-size: 16px;
   }
 `
 
