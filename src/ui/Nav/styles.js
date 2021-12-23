@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 export const Nav = styled.nav`
-  align-items: center;
+  align-items: ${({ isMobile }) => (isMobile ? 'flex-start' : 'center')};
   display: flex;
-  gap: 5rem;
+  flex-direction: ${({ isMobile }) => (isMobile ? 'column' : 'row')};
+  gap: ${({ isMobile }) => (isMobile ? '2rem' : '5rem')};
 `
 
 export const NavLink = styled.a`

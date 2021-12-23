@@ -1,9 +1,11 @@
+import PropTypes from 'prop-types'
 import Link from 'next/link'
+
 import * as S from './styles'
 
-export default function Nav() {
+export default function Nav({ isMobile = undefined }) {
   return (
-    <S.Nav>
+    <S.Nav isMobile={isMobile}>
       <Link href="/discovery" passHref>
         <S.NavLink>Discovery</S.NavLink>
       </Link>
@@ -15,4 +17,8 @@ export default function Nav() {
       </Link>
     </S.Nav>
   )
+}
+
+Nav.propTypes = {
+  isMobile: PropTypes.bool
 }
