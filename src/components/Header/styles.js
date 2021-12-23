@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Header = styled.header`
   background-color: var(--branco);
   border-bottom: 1px solid var(--cinza2);
-  min-height: 7.5rem;
+
   position: sticky;
   top: 0;
   width: 100%;
@@ -13,7 +13,6 @@ export const Header = styled.header`
 export const HeaderWrapper = styled.div`
   align-items: center;
   display: flex;
-  height: 100%;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 100%;

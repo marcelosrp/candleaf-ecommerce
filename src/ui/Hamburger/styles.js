@@ -25,7 +25,7 @@ export const StyledBurger = styled.button`
     width: 2.5rem;
 
     :first-child {
-      transform: ${({ open }) => (open ? 'rotate(40deg)' : 'rotate(0)')};
+      transform: ${({ open }) => (open ? 'rotate(38deg)' : 'rotate(0)')};
     }
 
     :nth-child(2) {
