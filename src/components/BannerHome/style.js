@@ -11,6 +11,10 @@ export const Banner = styled.section`
   justify-content: center;
   width: 100%;
 
+  @media (max-width: 767px) {
+    height: 50rem;
+  }
+
   @media (min-width: 1700px) {
     background-size: auto;
   }
@@ -27,4 +31,18 @@ export const Content = styled.div`
   justify-content: center;
   text-align: center;
   width: 73rem;
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  svg {
+    color: var(--verde);
+    font-size: 3.8rem;
+  }
+
+  p {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
 `

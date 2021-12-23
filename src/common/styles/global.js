@@ -45,6 +45,18 @@ const GlobalStyles = createGlobalStyle`
     font-family: var(--primary-font);
     font-size: 16px;
   }
+
+  .defaultButton {
+    background-color: var(--verde);
+    border-radius: 4px;
+    border: none;
+    color: var(--branco);
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: var(--normal);
+    padding: 1rem 4rem;
+    text-decoration: none;
+  }
 `
 
 export default GlobalStyles
