@@ -11,6 +11,7 @@
       "@templates/*": ["templates/*"],
       "@styles/*": ["styles/*"],
       "@utils/*": ["utils/*"],
+      "@hooks/*": ["hooks/*"],
     }
   }
 }
