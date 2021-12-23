@@ -3,7 +3,7 @@ export const SEO = {
     type: 'website',
     locale: 'pt_BR',
     url: '',
-    site_name: 'NextJS - Boilerplate'
+    site_name: 'Candleaf'
   },
   twitter: {
     handle: '@marcelosrp',

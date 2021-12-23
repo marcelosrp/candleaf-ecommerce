@@ -5,22 +5,22 @@ export default function HomeTemplate() {
   return (
     <Layout>
       <NextSeo
-        title="NextJS - Boilerplate"
+        title="Candleaf :: Home"
         description="A simple NextJS Boilerplate to start an project"
         canonical="https://my-trips-soares.vercel.app/"
         openGraph={{
           url: 'https://my-trips-soares.vercel.app/',
-          title: 'NextJS - Boilerplate',
+          title: 'Candleaf',
           description: 'A simple NextJS Boilerplate to start an project',
           images: [
             {
               url: '',
               width: 1280,
               height: 720,
-              alt: 'NextJS - Boilerplate'
+              alt: 'Candleaf'
             }
           ],
-          site_name: 'NextJS - Boilerplate'
+          site_name: 'Candleaf'
         }}
       />
       <h1>Home</h1>
