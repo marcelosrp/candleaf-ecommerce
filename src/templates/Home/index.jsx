@@ -1,6 +1,11 @@
 import Layout from '@components/Layout'
 import { NextSeo } from 'next-seo'
 import Hero from '@components/Hero'
+import Titulo from '@components/Tipografia/titulo'
+import Texto from '@components/Tipografia/texto'
+import CardProduto from '@components/CardProduto'
+
+import * as S from './styles'
 
 export default function HomeTemplate() {
   return (
@@ -26,6 +31,24 @@ export default function HomeTemplate() {
       />
 
       <Hero />
+
+      <S.ProdutoWrapper>
+        <Titulo>Products</Titulo>
+        <Texto>Order it for you or for your beloved ones </Texto>
+
+        <S.ProdutoLista>
+          <CardProduto
+            nome="Spiced Mint"
+            preco="35,00"
+            src="/assets/thumb-spiced-mint.png"
+          />
+          <CardProduto
+            nome="Sweet Straweberry"
+            preco="35,00"
+            src="/assets/thumb-sweet-straweberry.png"
+          />
+        </S.ProdutoLista>
+      </S.ProdutoWrapper>
     </Layout>
   )
 }

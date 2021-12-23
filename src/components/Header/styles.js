@@ -7,6 +7,7 @@ export const Header = styled.header`
   position: sticky;
   top: 0;
   width: 100%;
+  z-index: 9;
 `
 
 export const HeaderWrapper = styled.div`
