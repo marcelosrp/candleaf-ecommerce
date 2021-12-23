@@ -55,7 +55,33 @@ const GlobalStyles = createGlobalStyle`
     font-size: 2rem;
     font-weight: var(--normal);
     padding: 1rem 4rem;
+    position: relative;
     text-decoration: none;
+    z-index: 1;
+
+    &::before {
+      background-color: #7afdb6;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 0;
+      transition: width .3s ease;
+      z-index: -1;
+    }
+
+    &:hover {
+      &::before {
+        width: 100%;
+      }
+    }
+
+    &.disabled, &:disabled {
+      background-color: var(--cinza);
+      cursor: auto;
+      pointer-events: none;
+    }
   }
 `
 

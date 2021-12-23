@@ -4,11 +4,21 @@ export default function Button({
   children,
   element,
   type = undefined,
-  href = undefined
+  href = undefined,
+  className = undefined,
+  disabled = false
 }) {
   if (element === 'button') {
     return (
-      <button type={type} className="defaultButton">
+      <button
+        type={type}
+        disabled={disabled}
+        className={
+          className !== undefined
+            ? `defaultButton ${className}`
+            : 'defaultButton'
+        }
+      >
         {children}
       </button>
     )
@@ -16,7 +26,15 @@ export default function Button({
 
   return (
     <Link href={href}>
-      <a className="defaultButton">{children}</a>
+      <a
+        className={
+          className !== undefined
+            ? `defaultButton ${className}`
+            : 'defaultButton'
+        }
+      >
+        {children}
+      </a>
     </Link>
   )
 }
