@@ -5,7 +5,7 @@ import Button from '@ui/Button'
 
 import * as S from './style'
 
-export default function BannerHome() {
+export default function Hero() {
   return (
     <S.Banner>
       <S.Content>

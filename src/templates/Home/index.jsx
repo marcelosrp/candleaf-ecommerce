@@ -1,6 +1,6 @@
 import Layout from '@components/Layout'
 import { NextSeo } from 'next-seo'
-import BannerHome from '@components/BannerHome'
+import Hero from '@components/Hero'
 
 export default function HomeTemplate() {
   return (
@@ -25,7 +25,7 @@ export default function HomeTemplate() {
         }}
       />
 
-      <BannerHome />
+      <Hero />
     </Layout>
   )
 }
