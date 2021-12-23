@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import * as S from './styles'
 
-export default function Nav({ isMobile = undefined }) {
+export default function Nav({ isMobile = false }) {
   return (
     <S.Nav isMobile={isMobile}>
       <Link href="/discovery" passHref>

@@ -7,9 +7,9 @@ export default function HomeTemplate() {
       <NextSeo
         title="Candleaf :: Home"
         description="A simple NextJS Boilerplate to start an project"
-        canonical="https://my-trips-soares.vercel.app/"
+        canonical="https://candleaf-ecommerce.vercel.app/"
         openGraph={{
-          url: 'https://my-trips-soares.vercel.app/',
+          url: 'https://candleaf-ecommerce.vercel.app/',
           title: 'Candleaf',
           description: 'A simple NextJS Boilerplate to start an project',
           images: [

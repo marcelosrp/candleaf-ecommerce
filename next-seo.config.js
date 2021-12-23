@@ -2,7 +2,7 @@ export const SEO = {
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: '',
+    url: 'https://candleaf-ecommerce.vercel.app/',
     site_name: 'Candleaf'
   },
   twitter: {
