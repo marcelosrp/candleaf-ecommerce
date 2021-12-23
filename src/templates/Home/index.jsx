@@ -1,5 +1,6 @@
 import Layout from '@components/Layout'
 import { NextSeo } from 'next-seo'
+import BannerHome from '@components/BannerHome'
 
 export default function HomeTemplate() {
   return (
@@ -23,7 +24,8 @@ export default function HomeTemplate() {
           site_name: 'Candleaf'
         }}
       />
-      <h1>Home</h1>
+
+      <BannerHome />
     </Layout>
   )
 }

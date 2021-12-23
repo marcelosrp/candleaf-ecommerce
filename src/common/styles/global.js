@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
     --preto: #272727;
     --preto2: #1D293F;
     --verde: #56B280;
+    --tipografia: #1D252C;
 
     --container: 111rem;
 
