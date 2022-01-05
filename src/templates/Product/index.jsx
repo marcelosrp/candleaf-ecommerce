@@ -1,6 +1,7 @@
 import Layout from '@components/Layout'
 import { NextSeo } from 'next-seo'
 import ThumbProdutoInterna from '@components/ThumbProdutoInterna'
+import MensagemFrete from '@components/MensagemFrete'
 
 import * as S from './styles'
 
@@ -30,6 +31,7 @@ export default function ProductTemplate() {
       <S.WrapperProduto>
         <S.WrapperItem>
           <ThumbProdutoInterna size="large" />
+          <MensagemFrete />
         </S.WrapperItem>
         <S.WrapperItem></S.WrapperItem>
       </S.WrapperProduto>
