@@ -7,15 +7,9 @@ import Titulo from '@components/Tipografia/titulo'
 import Texto from '@components/Tipografia/texto'
 import CardProduto from '@components/CardProduto'
 import Button from '@ui/Button'
+import { beneficios } from 'helpers/utils'
 
 import * as S from './styles'
-
-const beneficios = [
-  '<strong>Eco-sustainable:</strong> All recyclable materials, 0% CO2 emissions',
-  '<strong>Hyphoallergenic:</strong> 100% natural, human friendly ingredients',
-  '<strong>Handmade:</strong> All candles are craftly made with love.',
-  '<strong>Long burning:</strong> No more waste. Created for last long.'
-]
 
 export default function HomeTemplate() {
   return (
