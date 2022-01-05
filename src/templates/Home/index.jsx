@@ -38,7 +38,7 @@ export default function HomeTemplate() {
 
       <S.ProdutoWrapper>
         <Titulo>Products</Titulo>
-        <Texto>Order it for you or for your beloved ones </Texto>
+        <Texto>Order it for you or for your beloved ones</Texto>
 
         <S.ProdutoLista>
           <CardProduto
@@ -84,6 +84,24 @@ export default function HomeTemplate() {
           </S.BeneficiosImg>
         </S.BeneficiosWrapper>
       </S.Beneficios>
+
+      <S.ProdutoWrapper>
+        <Titulo>Popular</Titulo>
+        <Texto>Our top selling product that you may like</Texto>
+
+        <S.ProdutoLista>
+          <CardProduto
+            nome="Spiced Mint"
+            preco="35,00"
+            src="/assets/thumb-spiced-mint.png"
+          />
+          <CardProduto
+            nome="Sweet Straweberry"
+            preco="35,00"
+            src="/assets/thumb-sweet-straweberry.png"
+          />
+        </S.ProdutoLista>
+      </S.ProdutoWrapper>
     </Layout>
   )
 }
