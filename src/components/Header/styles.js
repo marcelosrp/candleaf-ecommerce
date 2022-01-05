@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const Header = styled.header`
   background-color: var(--branco);
   border-bottom: 1px solid var(--cinza2);
-
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 9;

@@ -44,6 +44,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: var(--primary-font);
     font-size: 16px;
+    padding-top: 65px;
   }
 
   .defaultButton {
